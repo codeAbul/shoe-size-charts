@@ -1,0 +1,14 @@
+.loading {
+  display: grid;
+  height: 90vh;
+  place-content: center;
+  p {
+    z-index: 999;
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    color: darkgreen;
+    font-weight: bold;
+  }
+}

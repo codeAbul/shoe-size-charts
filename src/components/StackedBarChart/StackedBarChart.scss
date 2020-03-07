@@ -1,0 +1,18 @@
+.axis-tick-lines{
+  display: none;
+}
+
+.chart-container{
+  display: grid;
+  margin-top: 1rem;
+  place-content: center;
+  position: relative;
+}
+
+.tooltip-content{
+  background-color: white;
+  color: #657172;
+  font-weight: bold;
+  padding:1rem;
+  border:1px solid #657172;
+}

@@ -1,0 +1,14 @@
+.error {
+  display: grid;
+  height: 90vh;
+  place-content: center;
+  [role="alert"] {
+    z-index: 999;
+    background-color: lightpink;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    color: red;
+    font-weight: bold;
+  }
+}

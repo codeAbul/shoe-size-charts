@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  background-color: snow;
+  font-family: "Playfair Display", serif;
+  color: #657172;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  border-bottom: 2px solid #657172;
+
+  h1 {
+    flex-basis: 67%;
+    padding-left: 1rem;
+    font-weight: 703;
+    font-variation-settings: "wgth" 703;
+  }
+
+  nav {
+    flex-basis: 33%;
+  }
+  ul {
+    height: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0;
+  }
+
+  li{
+    margin-right: 0.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    padding: 0px 12px;
+    color: inherit;
+    font-weight: 430;
+    font-variation-settings: "wgth" 430;
+    font-size: 1.4rem;
+    transition: all 0.2s;
+
+    &:hover,
+    &:focus {
+      font-weight: 600;
+      background-color: #657172;
+      color: whitesmoke;
+    }
+  }
+
+  [aria-current="page"] {
+    background-color: #657172;
+    color: whitesmoke;
+    font-weight: 600;
+    font-variation-settings: "wgth" 600;
+  }
+}

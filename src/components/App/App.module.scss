@@ -1,0 +1,10 @@
+.header {
+  h1 {
+    display: grid;
+    grid-template-columns: max-content;
+    place-content: center;
+    background-color: #c593c6;
+    margin: 0;
+    padding: 1rem;
+  }
+}
