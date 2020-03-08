@@ -65,7 +65,7 @@ const DrawCharts: FunctionComponent<Props> = ({ role }) => {
     dispatch({
       type: "REQUEST_PENDING"
     });
-    document.title = `Shoe size charts - ${role}`;
+    document.title = `Shoe sizes charts - ${role}`;
     fetchData();
   }, [role]);
 
@@ -74,7 +74,6 @@ const DrawCharts: FunctionComponent<Props> = ({ role }) => {
   }
 
   if (state.requestState === "ok") {
-    console.log(state.data);
     const transformedData = state.data.map(transformData) as ReturnType<
       TransformDataFn
     >[];
