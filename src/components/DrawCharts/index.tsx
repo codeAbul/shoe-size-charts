@@ -4,7 +4,8 @@ import { RequestState, Reducer, Data, TransformDataFn } from "../../types";
 import Error from "../../components/Error";
 import StackedBarChart from "../StackedBarChart";
 import Loading from "../Loading";
-import { act } from "react-dom/test-utils";
+
+// ENHANCEMENT: Implement a dropdown to filter by country and gender
 
 const reducer: Reducer = (state, action) => {
   switch (action.type) {
