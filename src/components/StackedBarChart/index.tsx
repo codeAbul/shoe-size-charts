@@ -89,7 +89,7 @@ const StackedBarChart: FunctionComponent<ReturnType<TransformDataFn>> = ({
         fontWeight={"bold"}
         fill={"blue"}
       >
-        <tspan fontSize="10" fill={colors[i]}>
+        <tspan fontSize="1.2rem" fill={colors[i]}>
           ●
         </tspan>{" "}
         {d}
