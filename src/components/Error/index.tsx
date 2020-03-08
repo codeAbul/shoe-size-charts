@@ -12,7 +12,7 @@ const Error: FunctionComponent<Props> = ({ code }) => {
         return (
           <p role={"alert"}>
             We are sorry. But looks like the service you are trying to access is
-            currently unavailable. Please try again after a while.
+            currently unavailable. Please refresh the page(F5) after a while.
           </p>
         );
       case 401:
