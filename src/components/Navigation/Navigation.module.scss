@@ -1,12 +1,12 @@
 .header {
   display: flex;
-  background-color: snow;
+  background-color: white;
   font-family: "Playfair Display", serif;
-  color: #657172;
+  color: #444c4d;
   position: sticky;
   top: 0;
   z-index: 999;
-  border-bottom: 2px solid #657172;
+  border-bottom: 2px solid #444c4d;
 
   h1 {
     flex-basis: 67%;
@@ -45,14 +45,14 @@
     &:hover,
     &:focus {
       font-weight: 600;
-      background-color: #657172;
+      background-color: #444c4d;
       color: whitesmoke;
     }
   }
 
   [aria-current="page"] {
-    background-color: #657172;
-    color: whitesmoke;
+    background-color: #444c4d;
+    color: white;
     font-weight: 600;
     font-variation-settings: "wgth" 600;
   }
