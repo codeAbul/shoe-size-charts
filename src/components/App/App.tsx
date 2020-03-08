@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
-import { Switch, Route, NavLink } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import DrawCharts from "../DrawCharts";
-import styles from "./App.module.scss";
 import Navigation from "../Navigation";
 
 function App() {
