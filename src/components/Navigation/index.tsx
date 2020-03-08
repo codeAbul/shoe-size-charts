@@ -3,6 +3,8 @@ import React from "react";
 import styles from "./Navigation.module.scss";
 
 const Navigation = () => {
+  // ENAHANCEMENT: Refetch data on clicking the navigation link
+  // if the current request state is error
   return (
     <header className={styles.header}>
       <h1>Shoe sizes Charts</h1>
