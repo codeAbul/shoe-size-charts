@@ -2,7 +2,6 @@
   display: grid;
   height: 90vh;
   place-content: center;
-  font-family: "Playfair Display", serif;
   p {
     z-index: 999;
     background-color: whitesmoke;
@@ -10,6 +9,6 @@
     border-radius: 0.5rem;
     font-size: 2rem;
     color: darkgreen;
-    font-weight: bold;
+    font-weight: 500;
   }
 }

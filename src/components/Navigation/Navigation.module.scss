@@ -1,7 +1,6 @@
 .header {
   display: flex;
   background-color: white;
-  font-family: "Playfair Display", serif;
   color: #444c4d;
   position: sticky;
   top: 0;
@@ -11,8 +10,7 @@
   h1 {
     flex-basis: 67%;
     padding-left: 1rem;
-    font-weight: 703;
-    font-variation-settings: "wgth" 703;
+    font-weight: 700;
   }
 
   nav {
@@ -37,8 +35,7 @@
     place-content: center;
     padding: 0px 12px;
     color: inherit;
-    font-weight: 430;
-    font-variation-settings: "wgth" 430;
+    font-weight: 400;
     font-size: 1.4rem;
     transition: all 0.2s;
 
@@ -53,7 +50,7 @@
   [aria-current="page"] {
     background-color: #444c4d;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     font-variation-settings: "wgth" 600;
   }
 }
